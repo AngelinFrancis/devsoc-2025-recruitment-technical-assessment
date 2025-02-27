@@ -1,10 +1,10 @@
 import AvailableRoom from './AvailableRoom';
 
-const Room = ({ name, numRooms, buildingFile }) => {
+const Room = ({ name, numRooms, buildingFilename }) => {
   return (
     <div className='flex relative justify-center h-full'>
       <img 
-        src='assets/agsm.webp' 
+        src={buildingFilename}
         alt="Building room"
         className='w-full rounded-xl'
       />
