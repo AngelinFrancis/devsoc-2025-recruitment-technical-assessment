@@ -5,7 +5,7 @@ const NavBar = () => {
   const [ doorOpen, setDoorOpen ] = useState(true);
 
   return (
-    <div className= 'flex flex-row w-full h-14 items-center border'>
+    <div className= 'flex flex-row w-full h-14 items-center border border-b-1 border-x-0 border-t-0'>
       <div className='flex flex-row gap-2 p-2 flex-1'>
         {doorOpen ? (
           <img 
