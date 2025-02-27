@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import ActionBar from './ActionBar';
 
 const NavBar = () => {
   const [ doorOpen, setDoorOpen ] = useState(true);
@@ -23,29 +24,7 @@ const NavBar = () => {
         }
         <h1 className='text-3xl font-bold text-[#d1633e]'>Freerooms</h1>
       </div>
-
-      <div className='flex flex-row justify-end gap-2 p-2 w-fit'>
-        <img 
-          src='assets/icons/searchIcon.svg' 
-          alt='Search icon' 
-          className='h-10 w-10 border border-[#d1633e] rounded p-1.5'
-        />
-        <img
-          src='assets/icons/gridviewIcon.svg'
-          alt='Grid view icon'
-          className='h-10 w-10 border border-[#d1633e] rounded p-1.5 bg-[#d1633e]'
-        />
-        <img
-          src='assets/icons/mapIcon.svg'
-          alt='Map icon'
-          className='h-10 w-10 border border-[#d1633e] rounded p-1.5'
-        />
-                <img
-          src='assets/icons/darkmodeIcon.svg'
-          alt='Dark Mode icon'
-          className='h-10 w-10 border border-[#d1633e] rounded p-1.5'
-        />
-      </div>
+      <ActionBar />
     </div>
   )
 }
