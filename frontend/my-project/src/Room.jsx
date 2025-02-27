@@ -6,10 +6,10 @@ const Room = ({ name, numRooms, buildingFilename }) => {
       <img 
         src={buildingFilename}
         alt="Building room"
-        className='w-full rounded-xl'
+        className='w-full rounded-xl h-full'
       />
       <AvailableRoom numRooms={numRooms}/>
-      <h4 className='flex p-4 bg-[#d1633e] w-5/6 rounded-lg text-white absolute bottom-4 text-xl font-medium'>{name}</h4>
+      <h4 className='flex p-4 bg-[#d1633e] w-[93%] rounded-lg text-white absolute bottom-4 text-md font-medium'>{name}</h4>
     </div>
   )
 }

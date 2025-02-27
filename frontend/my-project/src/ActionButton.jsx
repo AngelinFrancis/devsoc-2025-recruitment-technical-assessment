@@ -4,8 +4,7 @@ import { CgSortAz } from "react-icons/cg";
 const ActionButton = ({ label }) => {
   return (
     <button
-      className='flex items-center justify-center py-1 font-bold text-[#d1633e] text-lg border border-[#d1633e] rounded-xl w-32'
-    > 
+      className='flex items-center justify-center font-bold text-[#d1633e] text-lg border border-[#d1633e] rounded-xl w-32 h-full'>
       { (label == 'Filters') ? (
         <MdFilterAlt className='h-7 w-7'/>
       ) : (
