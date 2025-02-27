@@ -13,7 +13,7 @@ const ActionBar = () => {
       <HiViewGrid className='h-10 w-10 border border-[#d1633e] rounded p-1.5 bg-[#d1633e] fill-white' />
       <RiMap2Fill className='h-10 w-10 border border-[#d1633e] rounded p-1.5 fill-[#d1633e]' />
       <MdDarkMode 
-        className='h-10 w-10 border border-[#d1633e] rounded p-1.5 fill-[#d1633e]'
+        className={`h-10 w-10 border border-[#d1633e] rounded p-1.5 fill-[#d1633e] ${darkMode && 'bg-[#d1633e] fill-white opacity-60'}`}
         onClick={() => setDarkMode(!darkMode)}
       />
     </div>
