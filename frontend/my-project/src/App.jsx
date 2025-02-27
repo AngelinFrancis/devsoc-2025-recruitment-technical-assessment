@@ -13,11 +13,11 @@ const App = () => {
   }, [])
 
   return (
-    <div className='flex flex-col h-screen w-full'>
+    <div className='flex flex-col h-full lg:h-screen w-full'>
       <NavBar />
-      <div className='flex flex-col w-full p-3 h-screen gap-4 relative'>
+      <div className='flex flex-col w-full p-3 h-full lg:h-screen h gap-4 relative'>
         <div className='flex w-full h-10 items-center justify-between'>
-          <ActionButton label='Filters' />
+          <ActionButton label='Filters'/>
           <SearchBar />
           <ActionButton label='Sort' />
         </div>

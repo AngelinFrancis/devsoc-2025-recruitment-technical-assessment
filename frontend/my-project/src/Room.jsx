@@ -9,7 +9,7 @@ const Room = ({ name, numRooms, buildingFilename }) => {
         className='w-full rounded-xl h-full'
       />
       <AvailableRoom numRooms={numRooms}/>
-      <h4 className='flex p-4 bg-[#d1633e] w-[93%] rounded-lg text-white absolute bottom-4 text-md font-medium'>{name}</h4>
+      <h4 className='flex px-4 py-3 md:bg-[#d1633e] w-[93%] rounded-lg text-white absolute inset-y-1/2 md:inset-auto md:bottom-4 lg:bottom-2 text-2xl md:text-base lg:text-sm h-max font-medium'>{name}</h4>
     </div>
   )
 }

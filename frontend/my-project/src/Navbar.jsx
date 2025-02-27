@@ -22,7 +22,7 @@ const NavBar = () => {
           />  
           )
         }
-        <h1 className='text-3xl font-bold text-[#d1633e]'>Freerooms</h1>
+        <h1 className='hidden md:block text-3xl font-bold text-[#d1633e]'>Freerooms</h1>
       </div>
       <ActionBar />
     </div>

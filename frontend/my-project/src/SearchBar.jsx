@@ -5,7 +5,7 @@ const SearchBar = () => {
   const [ query, setQuery ] = useState('');
   
   return (
-    <div className= 'flex w-1/2 p-2 gap-2 border border-gray-200 rounded items-center'>
+    <div className= 'flex w-full md:w-3/5 lg:w-1/2 p-2 gap-2 border border-gray-200 rounded items-center'>
       <IoSearchSharp className='fill-gray-500'/>
       <input 
         type='text'
