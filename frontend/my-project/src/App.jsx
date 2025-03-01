@@ -18,10 +18,12 @@ const App = () => {
     <div className={`flex flex-col h-full lg:h-screen w-full ${darkMode && 'bg-black'}`}>
       <NavBar />
       <div className='flex flex-col w-full p-3 h-full lg:h-screen gap-4 relative'>
-        <div className='flex w-full h-10 items-center justify-between'>
-          <ActionButton label='Filters'/>
+        <div className='flex flex-col md:flex-row w-full h-max-content items-center justify-center gap-3 md:gap-0'>
           <SearchBar />
-          <ActionButton label='Sort' />
+          <div className='flex h-10'>
+            <ActionButton label='Filters' style='left-3'/>
+            <ActionButton label='Sort' style='right-3'/>
+          </div>
         </div>
 
         <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-5 flex-1'>
