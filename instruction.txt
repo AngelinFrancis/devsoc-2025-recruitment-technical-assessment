@@ -1,0 +1,11 @@
+# Getting Started
+Follow these steps to set up the project after cloning the repository.
+
+1. Clone this repository
+
+2. Navigate to the project directory:
+   cd frontend/my-project
+
+3. npm i
+
+4. npm run dev
